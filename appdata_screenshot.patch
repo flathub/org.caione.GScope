@@ -1,0 +1,11 @@
+--- a/data/org.caione.GScope.appdata.xml.in	2020-01-26 12:26:07.511004710 +0100
++++ b/data/org.caione.GScope.appdata.xml.in	2020-01-26 12:27:31.757169309 +0100
+@@ -17,7 +17,7 @@
+   </description>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://gitlab.gnome.org/carlo.caione/gscope/tree/master/data/screenshot.png</image>
++      <image>https://gitlab.gnome.org/carlo.caione/gscope/raw/master/data/screenshot.png</image>
+     </screenshot>
+   </screenshots>
+   <launchable type="desktop-id">org.caione.GScope.desktop</launchable>
