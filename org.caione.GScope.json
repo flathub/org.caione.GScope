@@ -1,18 +1,14 @@
 {
     "app-id": "org.caione.GScope",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gscope",
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--filesystem=xdg-run/dconf",
-        "--filesystem=~/.config/dconf:ro",
-        "--filesystem=host",
-        "--talk-name=ca.desrt.dconf",
-        "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--filesystem=host"
     ],
     "cleanup": [
         "/include",
@@ -31,9 +27,9 @@
             "config-opts" : [ "--disable-Werror", "--disable-doc" ],
             "sources" : [
                 {
-                    "type" : "git",
-                    "tag": "3.24.9",
-                    "url" : "https://gitlab.gnome.org/GNOME/gtksourceview.git"
+                    "type" : "archive",
+                    "url" : "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz",
+                    "sha256": "691b074a37b2a307f7f48edc5b8c7afa7301709be56378ccf9cc9735909077fd"
                 }
             ]
         },
