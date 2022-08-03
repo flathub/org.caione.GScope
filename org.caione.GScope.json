@@ -1,12 +1,12 @@
 {
     "app-id": "org.caione.GScope",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "gscope",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--filesystem=host"
     ],
