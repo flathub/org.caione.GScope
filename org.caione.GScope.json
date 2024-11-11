@@ -59,7 +59,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "appdata_screenshot.patch"
+                    "path": "fix-appdata.patch"
                 }
             ]
         }

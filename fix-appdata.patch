@@ -1,0 +1,36 @@
+From 831b7789198a7d501aed5636f37f083c47e7ab69 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Mon, 11 Nov 2024 18:01:12 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/org.caione.GScope.appdata.xml.in | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/data/org.caione.GScope.appdata.xml.in b/data/org.caione.GScope.appdata.xml.in
+index b633e2c..f0ad574 100644
+--- a/data/org.caione.GScope.appdata.xml.in
++++ b/data/org.caione.GScope.appdata.xml.in
+@@ -17,15 +17,17 @@
+   </description>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://gitlab.gnome.org/carlo.caione/gscope/tree/master/data/screenshot.png</image>
++      <image>https://gitlab.gnome.org/carlo.caione/gscope/raw/master/data/screenshot.png</image>
+     </screenshot>
+   </screenshots>
+   <launchable type="desktop-id">org.caione.GScope.desktop</launchable>
+   <provides>
+     <binary>gscope</binary>
+   </provides>
+   <url type="homepage">https://gitlab.gnome.org/carlo.caione/gscope</url>
+-  <url type="donation">https://monzo.me/carlocaione</url>
++  <url type="bugtracker">https://gitlab.gnome.org/carlo.caione/gscope/-/issues</url>
++  <url type="vcs-browser">https://gitlab.gnome.org/carlo.caione/gscope</url>
++  <developer_name>Carlo Caione</developer_name>
+   <update_contact>carlo@caione.org</update_contact>
+   <project_group>Carlo Caione</project_group>
+   <releases>
+--
+libgit2 1.7.2
+
